@@ -25,6 +25,7 @@ A curated list of awesome command-line frameworks, toolkits, guides and gizmos. 
 - [Downloading and Serving](#downloading-and-serving)
 - [Multimedia and File Formats](#multimedia-and-file-formats)
 - [Applications](#applications)
+- [AI & Machine Learning](#ai--machine-learning)
 - [Games](#games)
 - [Shell Package Management](#shell-package-management)
 - [Shell Script Development](#shell-script-development)
@@ -208,6 +209,7 @@ A curated list of awesome command-line frameworks, toolkits, guides and gizmos. 
 * [bitwise](https://github.com/mellowcandle/bitwise) - Terminal based interactive bit manipulator in curses.
 * [bocker](https://github.com/p8952/bocker) - Docker implemented in 100 lines of bash
 * [cloc](https://github.com/AlDanial/cloc) - Count Lines of Code
+* [cobra](https://github.com/spf13/cobra) - A library and CLI generator for creating powerful modern CLI applications in Go; used by kubectl, Hugo, and GitHub CLI
 * [doclt](https://github.com/omgimanerd/doclt) - A command line interface to Digital Ocean
 * [dokku](https://github.com/dokku/dokku) - Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen.
 * [forgit](https://github.com/wfxr/forgit) - Utility tool for `git` taking advantage of fuzzy finder fzf.
@@ -285,10 +287,12 @@ A curated list of awesome command-line frameworks, toolkits, guides and gizmos. 
 * [httpie](https://github.com/httpie/httpie) - HTTPie is a command line HTTP client, a user-friendly cURL replacement
 * [HTTPLab](https://github.com/gchaincl/httplab) - The interactive web server, let you inspect HTTP requests and forge responses.
 * [Kapow!](https://github.com/BBVA/kapow) - If you can script it, you can HTTP it.
+* [miniserve](https://github.com/svenstaro/miniserve) - A small, self-contained cross-platform CLI tool to serve files and directories over HTTP from localhost
 * [ngincat](https://github.com/jaburns/ngincat) - Tiny Bash HTTP server using netcat
 * [resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines
 * [shell2http](https://github.com/msoap/shell2http) - HTTP-server to execute shell commands. Designed for development, prototyping or remote control
 * [tshare](https://github.com/trikko/tshare) - File sharing from commandline.
+* [serve](https://github.com/vercel/serve) - Static file serving and directory listing from the command line; great for local development and testing
 * [vesper](https://github.com/chris-rock/vesper) - 🍸Vesper is a HTTP framework for Bash/Unix Shell
 * [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Command-line program to download videos from YouTube.com and other video sites
@@ -365,6 +369,19 @@ A curated list of awesome command-line frameworks, toolkits, guides and gizmos. 
 * [whereami](https://github.com/rafaelrinaldi/whereami) - Get your geolocation information from the CLI
 * [wttr.in](https://github.com/chubin/wttr.in) - :partly_sunny: The right way to check the weather (curl wttr.in)
 
+## AI & Machine Learning
+
+*Command-line tools for large language models, natural language processing, and local AI inference.*
+
+* [aichat](https://github.com/sigoden/aichat) - All-in-one AI powered CLI chat & copilot supporting OpenAI, Gemini, Claude, Ollama and many other LLM backends
+* [fabric](https://github.com/danielmiessler/fabric) - Open-source framework for augmenting humans using AI, providing a CLI to apply community-built AI prompt patterns to any input
+* [gpt4all](https://github.com/nomic-ai/gpt4all) - Run privacy-sensitive LLMs entirely on-device with a CLI and optional GUI; supports CPU-only inference
+* [jan](https://github.com/janhq/jan) - Open-source local AI assistant that runs 100% offline; comes with a CLI for scripting and automation workflows
+* [llm](https://github.com/simonw/llm) - A CLI utility and Python library for interacting with Large Language Models both via remote APIs and locally installed models
+* [ollama](https://github.com/ollama/ollama) - Get up and running with large language models locally from the command line; supports Llama, Mistral, Gemma and many more
+* [outlines](https://github.com/dottxt-ai/outlines) - Structured text generation library with a CLI for NLP tasks such as classification, named-entity extraction, and constrained decoding
+* [spacy-cli](https://spacy.io/api/cli) - Command-line interface for the spaCy NLP library; train, evaluate and package models without writing Python code
+
 ## Games
 
 *All work and no play is a cruddy way to spend your day.*
@@ -399,6 +416,7 @@ A curated list of awesome command-line frameworks, toolkits, guides and gizmos. 
 
 *Tools for writing, improving, or organizing Bash or other shell scripts*
 
+* [argc](https://github.com/sigoden/argc) - Bash CLI framework: annotate shell functions with comments to auto-generate argument parsing, help text, and shell completions
 * [ansi](https://github.com/fidian/ansi) - ANSI escape codes in pure bash - change text color, position the cursor, much more
 * [assert.sh](https://github.com/lehmannro/assert.sh) - Bash unit testing framework
 * [bashew](https://github.com/pforret/bashew) - bash script creator - from small stand-alone script to complex projects with CI/CD and testing
